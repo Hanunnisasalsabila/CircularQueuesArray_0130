@@ -80,5 +80,12 @@ public:
             }
 
             FRONT_position = 0;
+
+            while (FRONT_position) {
+                cout << queue_array[FRONT_position] << " ";
+                FRONT_position++;
+            }
+            cout << endl;
+        }
     }
 };
